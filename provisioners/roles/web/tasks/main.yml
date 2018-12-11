@@ -1,0 +1,5 @@
+---
+tasks:
+  - name: Install web packages
+    yum:
+      name: ["php"]

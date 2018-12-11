@@ -1,0 +1,6 @@
+---
+tasks:
+  - name: Install database
+    yum:
+      name: ["mariadb","mariadb-server"]
+      state: present

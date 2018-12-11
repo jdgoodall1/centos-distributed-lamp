@@ -1,0 +1,5 @@
+---
+tasks:
+  - name: Install base packages
+    yum:
+      name: ["wget"]
