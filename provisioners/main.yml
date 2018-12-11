@@ -1,5 +1,7 @@
-hosts: localhost
-roles:
-  - base
-  - db
-  - web
+---
+- name: Install LAMP STACK
+  hosts: localhost
+  roles:
+    - base
+    - web
+    - db
