@@ -1,5 +1,5 @@
 ---
-tasks:
-- name: Install base packages
-  yum:
-    name: ["wget"]
+  - name: Install base packages
+    yum:
+      name: ["wget","mlocate"]
+      state: present

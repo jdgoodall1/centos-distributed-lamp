@@ -1,6 +1,6 @@
 ---
-- name: Install LAMP STACK
-  hosts: localhost
+- hosts: all
+  become: yes
   roles:
     - base
     - web
