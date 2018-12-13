@@ -1,5 +1,5 @@
 ---
   - name: Install base packages
     yum:
-      name: ["wget","mlocate"]
+      name: ["wget","mlocate","git"]
       state: present

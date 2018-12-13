@@ -3,3 +3,8 @@
     yum:
       name: ["mariadb","mariadb-server"]
       state: present
+  - name: Enable mariadb service
+    service:
+      name: mariadb
+      state: started
+      enabled: yes
