@@ -1,2 +1,2 @@
-# ansible-lamp
-Single machine LAMP stack on RHEL. Vagrant file &amp; ansible provisioned
+# centos-distibuted-lamp
+Distributed (2 machines) LAMP stack on RHEL. Vagrant file &amp; ansible provisioned
